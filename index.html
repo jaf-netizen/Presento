@@ -18,6 +18,19 @@
         html{
             scroll-behavior: smooth;
         }
+        ::-webkit-scrollbar{
+            width: 10px;
+        }
+        ::-webkit-scrollbar-button{
+            background-color: red;
+        }
+        ::-webkit-scrollbar-track{
+            background-color: black;
+        }
+        ::-webkit-scrollbar-thumb{
+            background-color: #e03a3c;
+            border-radius: 20px;
+        }
     </style>
 </head>
 <body>
@@ -31,10 +44,10 @@
                 <a href="#about" class="hover:text-[#e03a3c] duration-1000">About</a>
                 <a href="#services" class="hover:text-[#e03a3c] duration-1000">Services</a>
                 <a href="#portfolio" class="hover:text-[#e03a3c] duration-1000">Portfolio</a>
-                <a href="team" class="hover:text-[#e03a3c] duration-1000">Team</a>
+                <a href="#team" class="hover:text-[#e03a3c] duration-1000">Team</a>
                 <a href="#" class="hover:text-[#e03a3c] duration-1000">Blog</a>
                 <a href="#" class="hover:text-[#e03a3c] duration-1000">Dropdown</a>
-                <a href="contact" class="hover:text-[#e03a3c] duration-1000">Contact</a>
+                <a href="#contact" class="hover:text-[#e03a3c] duration-1000">Contact</a>
             </div>
             <div>
                 <button class="bg-[#e03a3c] py-[8px] px-[15px] rounded-[5px] text-white hover:opacity-80 duration-300">
@@ -57,14 +70,37 @@
                     </button>
                     <button class="flex items-center gap-[10px] border-white rounded-[5px] text-white">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" style="color: #e03a3c;" viewBox="0 0 24 24"><!-- Icon from Google Material Icons by Material Design Authors - https://github.com/material-icons/material-icons/blob/master/LICENSE --><path fill="currentColor" d="M13.05 9.79L10 7.5v9l3.05-2.29L16 12zm0 0L10 7.5v9l3.05-2.29L16 12zm0 0L10 7.5v9l3.05-2.29L16 12zM11 4.07V2.05c-2.01.2-3.84 1-5.32 2.21L7.1 5.69A7.94 7.94 0 0 1 11 4.07M5.69 7.1L4.26 5.68A9.95 9.95 0 0 0 2.05 11h2.02c.18-1.46.76-2.79 1.62-3.9M4.07 13H2.05c.2 2.01 1 3.84 2.21 5.32l1.43-1.43A7.87 7.87 0 0 1 4.07 13m1.61 6.74A10 10 0 0 0 11 21.95v-2.02a7.94 7.94 0 0 1-3.9-1.62zM22 12c0 5.16-3.92 9.42-8.95 9.95v-2.02C16.97 19.41 20 16.05 20 12s-3.03-7.41-6.95-7.93V2.05C18.08 2.58 22 6.84 22 12"/></svg>
-                        <p class="text-[16px] text-white">Watch Video</p>
+                        <p class="text-[16px] text-white hover:text-[#e03a3c] duration-1000">Watch Video</p>
                     </button>
             </div>
         </div>
     </section>
     <section class="bg-white">
-        <div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique minima voluptatibus optio facere amet voluptates, tempora ipsum totam doloribus placeat deleniti consequatur fuga vel, sequi exercitationem maxime corporis nihil blanditiis accusantium omnis repudiandae tenetur excepturi. Blanditiis incidunt nesciunt quaerat molestiae vel? Illum ad, autem molestias laborum dolore ullam ab, sapiente aliquid maxime numquam doloribus deserunt, labore quis porro rem possimus quam ipsa adipisci? Cumque aspernatur cupiditate dolor? Neque saepe a autem excepturi dolore facilis. Ducimus quo consectetur similique, error adipisci ut accusamus praesentium quos suscipit esse culpa eos sint, numquam aliquam, dolores id ratione quam at cumque omnis corrupti! Dolores laudantium, vel nesciunt unde est eos, vero, accusamus nam velit minus molestiae ipsam soluta ut fuga. Nostrum atque dicta quidem rem. Nobis, libero! Aliquid eos eveniet eligendi numquam velit corrupti debitis dolores consectetur magni quam. At reprehenderit corrupti ratione, molestias aspernatur recusandae vero quidem consequuntur quisquam perferendis natus, impedit dolorem error accusamus, voluptas aliquam. Quis fugit rem nostrum autem. Corrupti perspiciatis neque dicta quis dolor repellendus. Soluta, labore error tempora, expedita sapiente eligendi reiciendis mollitia quibusdam esse alias id natus, voluptate nostrum possimus voluptatem atque ad corporis porro et! A, ex eveniet praesentium est ab doloremque optio nam perferendis placeat dignissimos? Corrupti, autem suscipit eius doloremque modi cupiditate quis rem recusandae quo, inventore quidem adipisci totam ea reprehenderit a optio eveniet id. Reiciendis, vero eum illum quas facere saepe perferendis totam minus similique in laboriosam id optio nihil. Provident quae ea vitae debitis mollitia soluta explicabo aspernatur iste alias optio dolore in ipsum, eum cum laudantium deserunt doloribus libero excepturi repellendus obcaecati ab ullam impedit error? Corrupti deleniti aperiam quo recusandae eos doloribus laudantium, omnis minima eum dicta, nostrum id doloremque non odit harum praesentium neque eius quod expedita fugiat aspernatur sapiente quidem! Dicta quas quasi obcaecati omnis earum quo!</p>
+        <div class="grid grid-cols-8 py-20 mx-20">
+            <div>
+                <img src="/assets/client-1.png" alt="" class="w-20">
+            </div>
+            <div>
+                <img src="/assets/client-2.png" alt="" class="w-20">
+            </div>
+            <div>
+                <img src="/assets/client-3.png" alt=""  class="w-20">
+            </div>
+            <div>
+                <img src="/assets/client-4.png" alt=""  class="w-20">
+            </div>
+            <div>
+                <img src="/assets/client-5.png" alt=""  class="w-20">
+            </div>
+            <div>
+                <img src="/assets/client-6.png" alt=""  class="w-20">
+            </div>
+            <div>
+                <img src="/assets/client-7.png" alt=""  class="w-20">
+            </div>
+            <div>
+                <img src="/assets/client-8.png" alt=""  class="w-20">
+            </div>
         </div>
     </section>
     <section id="about" class="bg-black text-white py-20">
@@ -135,7 +171,7 @@
                     <div class="text-xl text-gray-700 font-medium">Projects</div>
                 </div>
             </div>
-            <div class="bg-white shadow-xl rounded-xl p-5 flex flex-col items-center justify-center relative">
+            <div class="bg-white shadow-xl rounded-xl p-5 flex flex-col items-center justify-center relative">
                 <div class="rounded-full p-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" style="color: #e03a3c;"><!-- Icon from Material Symbols Light by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M12 21.385v-1h7V19h-3.077v-6.154H19V11q0-2.9-2.05-4.95T12 4T7.05 6.05T5 11v1.846h3.077V19H4v-8.007q0-1.647.626-3.104q.626-1.456 1.716-2.547q1.09-1.09 2.55-1.716T12 3t3.108.626t2.55 1.716t1.716 2.55T20 11v10.385z"/></svg>
                 </div>
@@ -214,7 +250,7 @@
             </div>
         </div>
     </section>
-    <section id="services" class=" bg-[#1b1b1b] text-[white] py-20">
+    <section id="services" class=" bg-[#1b1b1b] text-[white] pt-20 mt-[50px]">
         <div class="mt-[100px]">
             <div>
                 <div class="items-center flex flex-col pt-[50px]">
@@ -390,9 +426,9 @@
                     Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
                 </p>
             </div>
-            <div class="lg:flex px-[120px] md:gap-[10px] mt-[20px] pb-[10px]">
+            <div class="grid lg:grid-cols-3 md:gap-x-[30px] mt-[70px] pb-[10px] justify-around px-40">
                 <!-- saul goodman -->
-                <div class="flex flex-col gap-[10px] border-1 px-[10px] py-[25px] shadow-black bg-white">
+                <div class="flex flex-col gap-[10px] px-[15px] py-[25px] shadow-xl bg-white">
                     <div>
                         <img src="./assets/testimonials-2.jpg" alt="" class="w-20 h-20 rounded-full">
                     </div>
@@ -415,7 +451,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex flex-col gap-[10px] border-1 px-[10px] py-[25px] shadow-black bg-white">
+                <div class="flex flex-col gap-[10px]  px-[15px] py-[25px] shadow-xl bg-white">
                     <div>
                         <img src="./assets/testimonials-3.jpg" alt="" class="w-20 h-20 rounded-full">
                     </div>
@@ -440,7 +476,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex flex-col gap-[10px] border-1 px-[10px] py-[25px] shadow-black bg-white">
+                <div class="flex flex-col gap-[10px]  px-[15px] py-[25px] shadow-xl bg-white">
                     <div>
                         <img src="./assets/testimonials-4.jpg" alt="" class="w-20 h-20 rounded-full">
                     </div>
@@ -468,7 +504,7 @@
             </div>
         </div>
     </section>
-    <section class=" bg-[#1b1b1b] text-[white] mt-[100px]">
+    <section class=" bg-[#1b1b1b] text-[white] mt-[100px] pb-[50px]">
         <div>
             <div class="pt-[50px]">
                 <div class="items-center flex flex-col">
@@ -481,7 +517,7 @@
                     </p>
                 </div>
             </div>
-            <div class="lg:flex items-center justify-center gap-[0px] mx-[100px] mt-[30px] mb-[100px] font-[Raleway]">
+            <div class="lg:flex items-center justify-center gap-[0px] mx-[100px] mt-[30px]  font-[Raleway]">
                 <!-- freeplan -->
                 <div class="bg-[#353535] items-center flex flex-col gap-[20px] lg:px-[50px] lg:py-[30px]">
                     <div>
@@ -683,6 +719,259 @@
             </div>
         </div>
     </section>
+    <section class="w-full max-w-2xl mx-auto p-6 bg-white rounded-xl mt-[50px]">
+        <div class="items-center flex flex-col">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">FREQUENTLY ASKED QUESTIONS</h2>
+            <hr class="border-b-2 w-[50px] border-[#e03a3c] mt-[5px] mb-[20px] ">
+        </div>
+        <div class="items-center flex justify-center mb-[50px]">
+            <p class="font-[Roboto]">
+                Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+            </p>
+        </div>
+        <div class="space-y-4">
+            <div class="border  rounded-[5px] border-[#e3e3e3] px-[20px]">
+                <button class="faq-toggle flex justify-between w-full py-4 text-left text-lg font-semibold text-gray-800 hover:text-red-600">
+                    Non consectetur a erat nam at lectus urna duis?
+                    <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+                <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 text-gray-600">
+                    <p class="pb-4">
+                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    </p>
+                </div>
+            </div>
+
+            <div class="border  rounded-[5px] border-[#e3e3e3] px-[20px]">
+                <button class="faq-toggle flex justify-between w-full py-4 text-left text-lg font-semibold text-gray-800 hover:text-red-600">
+                    Feugiat scelerisque varius morbi enim nunc faucibus?
+                    <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+                <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 text-gray-600">
+                    <p class="pb-4">
+                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    </p>
+                </div>
+            </div>
+
+            <div class="border  rounded-[5px] border-[#e3e3e3] px-[20px]">
+                <button class="faq-toggle flex justify-between w-full py-4 text-left text-lg font-semibold text-gray-800 hover:text-red-600">
+                    Dolor sit amet consectetur adipiscing elit pellentesque?
+                    <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+                <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 text-gray-600">
+                    <p class="pb-4">
+                        Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                    </p>
+                </div>
+            </div>
+
+            <div class="border  rounded-[5px] border-[#e3e3e3] px-[20px]">
+                <button class="faq-toggle flex justify-between w-full py-4 text-left text-lg font-semibold text-gray-800 hover:text-red-600">
+                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                    <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+                <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 text-gray-600">
+                    <p class="pb-4">
+                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    </p>
+                </div>
+            </div>
+
+            <div class="border  rounded-[5px] border-[#e3e3e3] px-[20px]">
+                <button class="faq-toggle flex justify-between w-full py-4 text-left text-lg font-semibold text-gray-800 hover:text-red-600">
+                    Tempus quam pellentesque nec nam aliquam sem et tortor?
+                    <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+                <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 text-gray-600">
+                    <p class="pb-4">
+                        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                    </p>
+                </div>
+            </div>
+
+            <div class="border rounded-[5px] border-[#e3e3e3] px-[20px]">
+                <button class="faq-toggle flex justify-between w-full py-4 text-left text-lg font-semibold text-gray-800 hover:text-red-600">
+                    Perspiciatis quod quo quos nulla quo illum ullam?
+                    <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+                <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 text-gray-600">
+                    <p class="pb-4">
+                        Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.
+                    </p>
+                </div>
+            </div>
+        </div>
+  </section>
+  <section id="team" class="bg-black">
+    <div class="pt-[50px]">
+        <div class="items-center flex flex-col">
+            <p class="text-[32px] font-[Raleway] font-[700] text-[white]">TEAM</p>
+            <hr class="border-b-2 w-[50px] border-[#e03a3c] mt-[5px] mb-[20px]">
+        </div>
+        <div class="items-center flex justify-center">
+            <p class="font-[Roboto] text-white">
+                Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+            </p>
+        </div>
+    </div>
+    <div class="grid lg:grid-cols-4 px-20 gap-10 mt-10">
+        <div>
+            <div>
+                <img src="./assets/team-1 (1).jpg" alt="">
+            </div>
+            <div class="bg-[#353535] text-white font-[Raleway] p-[10px]">
+                <p class="font-bold">Walter White</p>
+                <p>Chief Executive Officer</p>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="./assets/team-2 (1).jpg" alt="">
+            </div>
+            <div class="bg-[#353535] text-white font-[Raleway] p-[10px]">
+                <p class="font-bold">Sarah Johnson</p>
+                <p>Product Manager</p>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="./assets/team-3 (1).jpg" alt="">
+            </div>
+            <div class="bg-[#353535] text-white font-[Raleway] p-[10px]">
+                <p class="font-bold">William Anderson</p>
+                <p>CTO</p>
+            </div>
+        </div>
+        
+        <div>
+            <div>
+                <img src="./assets/team-4.jpg" alt="">
+            </div>
+            <div class="bg-[#353535] text-white font-[Raleway] p-[10px]">
+                <p class="font-bold">Amanda Jepson</p>
+                <p>Accountant</p>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="pt-[50px]">
+        <div class="items-center flex flex-col">
+            <p class="text-[32px] font-[Raleway] font-[700]">CONTACT</p>
+            <hr class="border-b-2 w-[50px] border-[#e03a3c] mt-[5px] mb-[20px]">
+        </div>
+        <div class="items-center flex justify-center">
+            <p class="font-[Roboto] text-white">
+                Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+            </p>
+        </div>
+    </div>
+
+    <div class=" flex gap-10 px-[170px]">
+        <!-- holds the two of em -->
+        <div class="flex flex-col gap-5">
+            <!-- first -->
+            <div class="flex flex-col bg-white items-center shadow-xl px-[60px] py-[10px]">
+                <div class="border-2 rounded-full border-dotted p-[10px] h-[50px] w-[50px] items-center flex border-[#e03a3c]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" style="color: #e03a3c;"><!-- Icon from Material Symbols Light by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M12.004 11.73q.667 0 1.14-.475t.472-1.143t-.476-1.14t-1.143-.472t-1.14.476t-.472 1.143t.475 1.14t1.144.472M12 19.677q2.82-2.454 4.458-4.991t1.638-4.39q0-2.744-1.737-4.53Q14.62 3.981 12 3.981T7.641 5.766t-1.737 4.53q0 1.852 1.638 4.39T12 19.677m0 1.342q-3.525-3.117-5.31-5.814q-1.786-2.697-1.786-4.909q0-3.173 2.066-5.234Q9.037 3 12 3t5.03 2.062q2.066 2.061 2.066 5.234q0 2.212-1.785 4.909q-1.786 2.697-5.311 5.814m0-10.903"/></svg>
+                </div>
+                <div class="flex flex-col items-center">
+                    <p class="">Address</p>
+                    <p class="text-center">A108 Adam Street, New York, NY 535022</p>
+                </div>
+            </div>
+            <!-- second -->
+            <div class="grid grid-cols-2 gap-[20px]">
+                <div class="flex flex-col bg-white items-center shadow-xl px-[10px]">
+                    <div class="border-2 rounded-full border-dotted p-[10px] h-[50px] w-[50px] items-center flex border-[#e03a3c]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" style="color: #e03a3c;"><!-- Icon from Material Symbols Light by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M18.93 20q-2.528 0-5.184-1.266t-4.935-3.555t-3.545-4.935T4 5.07q0-.458.3-.763T5.05 4h2.473q.408 0 .712.257t.411.659L9.142 7.3q.07.42-.025.733t-.333.513L6.59 10.592q.616 1.117 1.361 2.076t1.59 1.817q.87.87 1.874 1.62q1.004.749 2.204 1.414l2.139-2.177q.244-.263.549-.347q.304-.083.674-.033l2.103.43q.408.1.662.411t.254.712v2.435q0 .45-.306.75t-.763.3M6.12 9.654l1.92-1.765q.095-.077.124-.212q.03-.135-.01-.25l-.443-2.12q-.039-.153-.135-.23T7.327 5H5.275q-.115 0-.192.077t-.077.192q.029 1.025.321 2.14t.794 2.245m8.45 8.334q1.014.502 2.16.743q1.148.24 2 .257q.115 0 .192-.077T19 18.72v-2.008q0-.153-.077-.25q-.077-.096-.23-.134l-1.85-.379q-.116-.039-.203-.01q-.086.03-.182.125zm0 0"/></svg>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <p>Call Us</p>
+                        <p>+1 5589 55488 55</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col bg-white items-center shadow-xl px-[10px]">
+                    <div class="border-2 rounded-full border-dotted p-[10px] h-[50px] w-[50px] items-center flex border-[#e03a3c]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" style="color: #e03a3c;"><!-- Icon from Material Symbols Light by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M4.616 19q-.691 0-1.153-.462T3 17.384V6.616q0-.691.463-1.153T4.615 5h14.77q.69 0 1.152.463T21 6.616v10.769q0 .69-.463 1.153T19.385 19zM20 6.885l-7.552 4.944q-.106.055-.214.093q-.109.037-.234.037t-.234-.037t-.214-.093L4 6.884v10.5q0 .27.173.443t.443.173h14.769q.269 0 .442-.173t.173-.443zM12 11l7.692-5H4.308zM4 6.885v.211v-.811v.034V6v.32v-.052v.828zV18z"/></svg>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <p>Email Us</p>
+                        <p>info@example.com</p>
+                    </div>
+                </div>
+             </div>
+        </div>
+        <div>
+            <form action="" class="shadow-xl p-10">
+                <div class="gap-[10px] flex flex-col">
+                    <div class="flex gap-[10px]">
+                        <input type="text" placeholder="Your Name" class="bg-white border-[#dadada] border-1 focus:border-[#e03a3c]  px-[40px] text-[#dadada] py-[2px] hover:border-[#e03a3c]">
+                        <input type="text" placeholder="Your Email" class="bg-white border-[#dadada] border-1 focus:border-[#e03a3c] px-[40px] text-[#dadada] py-[2px] hover:border-[#e03a3c]">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Subject" class="bg-white border-[#dadada] border-1 focus:border-[#e03a3c] px-[175px] py-[2px] text-[#dadada] hover:border-[#e03a3c]">
+                    </div>
+                    <div>
+                        <textarea name="" id="Message" placeholder="Message" class="bg-white border-[#dadada] border-1 hover:border-[#e03a3c]" cols="70" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center mt-[10px]">
+                    <button class="bg-[#e03a3c] text-white px-[40px] py-[15px] rounded-[20px] hover:opacity-80 duration-300">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+  </section>
+  <footer>
+    
+  </footer>
+  <script>
+    // FAQ Toggle Logic
+    const toggles = document.querySelectorAll('.faq-toggle');
+
+    toggles.forEach(toggle => {
+      toggle.addEventListener('click', () => {
+        const content = toggle.nextElementSibling;
+        const icon = toggle.querySelector('svg');
+
+        // Close other open FAQs (optional)
+        document.querySelectorAll('.faq-content').forEach(faq => {
+          if (faq !== content) {
+            faq.style.maxHeight = null;
+            faq.previousElementSibling.querySelector('svg').classList.remove('rotate-180');
+          }
+        });
+
+        // Toggle current FAQ
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+          icon.classList.remove('rotate-180');
+        } else {
+          content.style.maxHeight = content.scrollHeight + 'px';
+          icon.classList.add('rotate-180');
+        }
+      });
+    });
+  </script>
     </body>
 </html>
  
